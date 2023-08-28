@@ -1,0 +1,245 @@
+
+
+body{
+    background-color: rgba(5, 5, 5, 0.019);
+    margin: 0%; 
+    padding: 0%;
+}
+
+.linkbtn{
+    width: 50%; 
+    height: 100px;
+    display:inline;
+    justify-content: center;
+    background-color: rgba(213, 232, 249, 0.908);
+    border-radius: 20px;
+    transition: 0.3s;
+    text-decoration-line: none !important; 
+    border: none !important;
+    padding: 0%;
+
+}
+.linkbtn:hover{
+    background-color: rgb(20, 157, 237);
+}
+
+P{
+    font-size: 3em;
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2{
+    font-size: 3em;
+}
+h3 {
+    margin: 0%;
+    color: rgb(0, 0, 0);
+    text-align:left ;
+    margin: 5px;
+    font-size:2em;
+
+}
+
+header { 
+    
+    text-align: center;
+    border-radius:10px;
+    background: rgb(0,14,195);
+    background: radial-gradient(circle, rgba(0,14,195,1) 62%, rgba(0,0,0,1) 100%);
+    margin-top: 0%;
+    height:550px; 
+    
+
+}
+
+ul li {
+    display: flex;
+    display: inline-block;
+    line-height:60px;
+    font-size: 2em;
+    
+
+
+}
+ol li{ 
+    line-height:50px;
+    font-size: 2em;
+    
+}
+a  { 
+    color: rgb(1, 1, 1);
+    margin: 100px;
+    text-decoration: none;
+
+}
+.p{
+    font-size: 1em;}
+
+.ola{
+    text-align: center;
+}
+h1{ 
+    font-size: 5em;
+    height: 200px;
+    color:rgb(14, 14, 14);
+    margin: 0%;
+    padding: 0%;
+}
+
+.back{
+    color: black;
+}
+
+main{
+    font-size: 2em;
+}
+.fundo{
+    margin: 0%;
+    padding: 0%;
+    line-height:200px;
+}
+.começo_livros{
+    background: rgb(216,204,29);
+    background: radial-gradient(circle, rgba(216,204,29,1) 28%, rgba(146,123,134,1) 71%);
+    color: black !important;
+    line-height: 200px;
+    height: 450px;
+}
+.livrotxt{
+    font-size: 3em;
+}
+.começo_filme{
+    background: rgb(216,29,29);
+    background: radial-gradient(circle, rgba(216,29,29,1) 28%, rgba(146,123,123,1) 71%);
+    line-height: 100px;
+    height: 450px;
+}
+.filmetxt{
+font-size: 3em;
+
+}
+.começo_musica{
+    background: rgb(7,195,0);
+    background: radial-gradient(circle, rgba(7,195,0,1) 71%, rgba(0,0,0,1) 100%);
+    line-height: 200px;
+    height: 500px;
+}
+
+.liMusica{
+    color: black !important;
+    display: flex;
+    justify-content:center;
+    margin: 10px;
+}
+.começo_NBA{
+
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 15%, rgba(255,219,219,1) 36%, rgba(243,243,243,1) 59%, rgba(222,220,255,1) 64%, rgba(8,0,255,1) 100%);
+    margin:0% ;
+    line-height: 200px;
+}
+.começo_rap{
+line-height: 500px;
+background-image: url(rap.jpg);
+}
+.raptxt{
+    color: aliceblue;
+    line-height: 200px;
+    position:absolute ;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    background-color: #0b0b0bab;
+    background-repeat: no-repeat;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.btn{ 
+    font-size: 2em;
+    display: flex;
+    justify-content:center;
+    line-height: 700px;
+    border-radius: 20px;
+    transition: 0.3s;
+    text-decoration-line: none !important; 
+    border: none !important;
+    text-align: center;
+
+}
+.rap_img{
+    display: flex;
+    justify-content: center;
+}
+.txt_luis{
+    overflow: 4;
+}
+.linhatp{
+
+    line-height: 100px;
+}
+
+
+img{
+float: left;
+margin-right: 50px;
+}
+.começo_forro{
+    background-image:url(nordeste.jpg);
+    line-height: 300px;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-color: #DECD87;
+
+}
+.tforro{
+    color: aliceblue;
+    line-height: 200px;
+    position:absolute ;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    background-color: #0b0b0b80;
+    background-repeat: no-repeat;
+    padding: 50px;
+    border-radius: 15px;
+}
+.começo_samba{
+    background-image: url(img\ _samba.jpg);
+
+}
+.sambatxt{
+    color: aliceblue;
+    line-height: 200px;
+    position:absolute ;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    background-color: #0b0b0bab;
+    background-repeat: no-repeat;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.começo_tecnologia{
+    background: rgb(0,255,8);
+    background: linear-gradient(90deg, rgba(0,255,8,0.6587885154061625) 24%, rgba(27,107,202,0.695203081232493) 48%, rgba(255,0,249,0.7204131652661064) 76%);
+    line-height: 200px;
+    height: 450px;
+}
+.tectxt{
+    font-size: 3em;
+}
+.começo_economia{
+    background: rgb(0,223,22);
+background: linear-gradient(0deg, rgba(0,223,22,1) 29%, rgba(237,255,0,1) 64%, rgba(0,251,253,0.7764355742296919) 100%);
+height: 400px;
+font-size: 1em;
+}
+
+
+
+
